@@ -10,6 +10,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
 <link href="css2-1?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!-- bootstrap -->
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
 <title>
     محمد ممدوح للاستثمار العقاري  
 </title>
@@ -103,7 +108,7 @@
     }
 
     body {
-        background-color: #212121;
+        background-color: #030303;
         }
 
     section.slice {
@@ -712,10 +717,210 @@
 
         }
 
+       /* edit */
+
+       /* start landing */
+
+.landing{
+    background: #030303;
+    position: relative;
+    z-index: 0;
+    min-height: 700px;
+}
+.text{
+    text-align: right;
+}
+.text1{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: right !important;
+    color: white;
+}
+.text2{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+    color: white;
+}
+.text3{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-top: 20px;
+    color: white;
+}
+.line-shape{
+    position: absolute;
+    top: 8%;
+    left: 0;
+    z-index: -1;
+    transform: rotate(180deg);
+}
+.line-shape svg{
+    height: 615px;
+    width: 747px;
+}
+.image-land img{
+  /*  width: 100%; */
+    height: 700px;
+}
+.light-shape-1{
+    background: radial-gradient(50% 50% at 50% 50%,#ffb677 0,hsla(38,80%,75%,0) 97.4%);
+    height: 233px;
+    right: 0;
+    opacity: .3;
+    position: absolute;
+    top: -10px;
+    width: 233px;
+}
+.light-shape-2{
+    background: radial-gradient(50% 50% at 50% 50%,#ffb677 0,hsla(38,80%,75%,0) 97.4%);
+    height: 195px;
+    left: 45%;
+    opacity: .3;
+    position: absolute;
+    top: 60%;
+    transform: translate(-50%,-50%);
+    width: 195px;
+}
+.light-shape-3{
+    background: radial-gradient(50% 50% at 50% 50%,#ffb677 0,hsla(38,80%,75%,0) 97.4%);
+    border-radius: 364px;
+    height: 364px;
+    opacity: .3;
+    position: absolute;
+    left: 20px;
+    top: 0;
+    width: 364px;
+}
+.video-content{
+    margin-top: 60px;
+}
+.btn-start{
+    background: linear-gradient(90deg, rgb(242, 205, 140), rgb(204, 146, 96));
+    border-radius: 35px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    overflow: hidden;
+    padding: 2px;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+.btn-start:hover{
+    color: white;
+}
+.btn-start span{
+    background: #030303;
+    border-radius: 35px;
+    display: block;
+    padding: 5px 35px;
+    position: relative;
+    z-index: 1;
+}
+.btn-start span::before{
+    content: "";
+    background: linear-gradient(90deg,#f2cd8c,#cc9260);
+    border-radius: 35px;
+    height: 110%;
+    left: -1%;
+    position: absolute;
+    top: -1%;
+    transition: all .3s;
+    width: 0;
+    z-index: -1;
+}
+.btn-start span:hover::before{
+    width: 120%;
+}
+.btn-video{
+    background-color: transparent;
+    border: 2px solid #f2cd8c;
+    border-radius: 50%;
+    color: #c3b287;
+    display: block;
+    height: 55px;
+    margin-right: 20px;
+    text-align: center;
+    width: 55px;
+}
+.slider{
+    margin-top: 125px;
+    max-width: 420px;
+}
+.image-client{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 5px;
+    outline: 2px solid white;
+}
+.image-client img{
+    border-radius: 50%;
+}
+/* end landing */
+
+/* start contact */
+.text-contact{
+    text-align: right;
+}
+.form-contact{
+    background: rgba(3,3,3,.5);
+    border: 1px solid #343434;
+    margin: 0 auto;
+    padding: 60px 40px 50px;
+}
+.edit-input{
+    background: transparent;
+    border: 1px solid #8a8a8a;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    height: 60px;
+    line-height: 25px;
+    padding: 15px;
+}
+.form-contact textarea{
+    height: 200px;
+}
+.btn{
+    background-color: transparent;
+    border: none;
+}
+.contact{
+    padding-bottom: 0 !important;
+}
+.copyright{
+    padding: 30px 0;
+    border-top: 1px solid #b8b6b2;
+}
+.social-link ul li a{
+    background-color: hsla(0,0%,100%,.8);
+    color: #000 !important;
+    display: block !important;
+    height: 40px;
+    line-height: 45px;
+    text-align: center;
+    width: 40px;
+    border-radius: 50%;
+    font-size: 18px !important;
+    margin: 5px;
+    padding: 0px;
+}
+.social-link ul{
+    padding-right: 0;
+}
+/* finish contact */
+
+
+
     </style>
     </head>
 
-<body style="background-color: #212121;">
+<body style="background-color: #030303;">
 
         <!--header start-->
                     
@@ -806,7 +1011,46 @@
                 </div>
             </div>
     </div></section>
-    <section class="slice pt-0 pb-2 pt-lg-5">
+
+    <!-- landing -->
+    <section class="landing mt-4" style="direction: rtl;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-12 d-flex align-items-center ps-5 pe-5">
+                    <div class="content-land pt-5">
+                        <div class="text-white text">
+                            <span class="text1">مرحبا, أنا</span>
+                            <h1 class="text2">محمد ممدوح</h1>
+                            <p class="text3">وكيل عقارى معتمد مرخص من دائرة الاراضى والاملاك فى دبى مختص فى بيع وشراء وتأجير العقارات</p>
+                        </div>
+                        <div class="video-content d-flex flex-wrap">
+                            <a href="#about" class="btn-start mb-3">
+                                <span>ابدأالان</span>
+                            </a>
+                            <div class="d-flex">
+                                <div>
+                                    <button type="button" class="btn-video" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <i class="fa-solid fa-play"></i>
+                                    </button>
+                                </div>
+                                <h5 class="text-light me-3 d-flex align-items-center">ابدأ المشاهدة الان</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="image-land d-flex justify-content-center">
+                        <img src="frontend/about2.d6eda3a41b81accd6402.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="light-shape-1"></div>
+        <div class="light-shape-2"></div>
+        <div class="light-shape-3"></div>
+      </section>
+
+    <!-- <section class="slice pt-0 pb-2 pt-lg-5">
         <div class="container px-4 px-lg-0">
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-8">
@@ -827,9 +1071,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section class="slice slice-lg pt-0 pb-0">
+    <!-- <section class="slice slice-lg pt-0 pb-0" style="background-color: #0c0c0c !important;">
         <div class="container">
             <div class="row mb-2 justify-content-center text-center">
                 <div class="col-lg-12">
@@ -843,109 +1087,75 @@
                     </div>
                 </div>
             </div>
-    </div></section>
+    </div></section> -->
 
-    <section class="slice slice-lg p-0 pb-5">
+    
+
+    <section class="slice slice-lg p-0 pb-5 pt-5" style="background-color: #0c0c0c !important; direction:rtl;">
         <div class="container px-4 px-lg-0">
-            <div class="gradient-border">
-                <div class="row no-gutters green " style="direction: rtl;">
-                    <div class="col-md-12 d-flex align-items-center justify-content-center">
-                        <div class="text-center my-bela py-5">
-                            <h2 class="heading-3 mb-3 mb-lg-0 mb-md-0 heading-new">إحجز شقة الآن </h2>
-                            <form class="add_form_free" id="form-contact mt-4 mt-lg-0">
-                                <input type="hidden" name="_token" value="NDOtxUwPu2a1ZJM3dZDojlNTwYnpJnSAS2cod5v8">                                <input type="hidden" name="referral_id" value="">
-                                <div class="row">
-                                    <div class="col-lg-4 mt--md-4 mt-3">
-                                        <div class="form-group">
-                                            <label for="name1">هل شاهدت الفيديو؟
-                                            </label>
-                                            <select class="custom-select custom-select-lg" name="video_seen" id="video_seen" required="">
-                                                <option disabled="" selected="">اختر </option>
-                                                <option value="Yes, I watched it in full">نعم شاهدته بالكامل</option>
-                                                <option value="I watched part of it">شاهدت جزء منه</option>
-                                                <option value="No, I haven't seen it">لا لم اشاهده</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 mt-3">
-                                        <div class="form-group">
-                                            <label for="name5">ما هي ميزانية الاستثمار؟
-                                            </label>
-                                            <select class="custom-select custom-select-lg" name="budget" id="budget" required="">
-                                                <option disabled="" selected="">اختر </option>
-                                                <option value="I don't have money">ليس لدي المال</option>
-                                                <option value="30 thousand dollars">30 ألف دولار</option>
-                                                <option value="50 thousand dollars">50 ألف دولار</option>
-                                                <option value="100 thousand dollars"> 100 ألف دولار</option>
-                                                <option value="200 thousand dollars">200 ألف دولار</option>
-                                                <option value="500 thousand dollars">500 ألف دولار</option>
-                                                <option value="1 million dollars">مليون دولار</option>
-                                                <option value="More than 1 million dollars">اكثر من مليون دولار</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 mt-3">
-                                        <div class="form-group">
-                                            <label for="name5">هل انت جاهز لحجز العقار؟
-                                            </label>
-                                            <select class="custom-select custom-select-lg" name="ready_to_invest" id="ready_to_invest" required="">
-                                                <option disabled="" selected="">اختر </option>
-                                                <option value="Yes, I am ready to invest now">نعم جاهز</option>
-                                                <option value="No, I'm not ready now">لا غير جاهز</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 mt-3">
-                                        <div class="form-group">
-                                            <label for="name5">الإسم الكامل
-                                            </label>
-                                            <input type="text" class="form-text-field" placeholder="Name" name="name" id="name" dir="ltr">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 mt-3">
-                                        <div class="form-group" id="phone_div">
-                                            <label for="name1">رقم الهاتف المتحرك</label>
-                                            <input name="phone" type="tel" id="phone" class="form-text-field" placeholder="">
-                                            <input type="hidden" id="country_code" name="country_code" dir="ltr">
-                                            <input type="hidden" id="combinedPhone" name="combined_phone" dir="ltr">
-                                            <input type="hidden" id="ip_country" name="ip_country" value="us" dir="ltr">
-                                           
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 mt-3">
-                                    
-                                        <div class="form-group">
-                                        <label for="name5">لبريد الالكتروني
-                                        </label>
-                                        <input type="text" class="form-text-field" placeholder="لبريد الالكتروني" name="email" id="email">
-                                        </div>
-                                     </div>
-                                    
-                                    <div class="col-lg-4 mt-3">
-                                        <div class="form-group">
-                                            <label for="name5">كيف تعرف عنا؟
-                                            </label>
-                                            <select class="custom-select custom-select-lg" id="source_of_discovery" name="source_of_discovery" required="">
-                                                <option disabled="" selected="">اختر </option>
-                                                <option value="Instagram">انستجرام</option>
-                                                <option value="Tik Tok">تيكتوك</option>
-                                                <option value="Facebook">فيسبوك</option>
-                                                <option value="The YouTube">يوتيوب</option>
-                                                <option value="Through a Friend">عن طريق صديق</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                  
-                                    <div class="col-lg-12 mt-4">
-                                        <button type="submit" class="btn w-60 border-0 font-weight-bolder my-button">
-                                            <span class="btn-inner--text">سجل الآن
-                                            </span>
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
+            <div class="row">
+                <div class="col-lg-5 col-12">
+                 <div class="text-white text-contact">
+                  <h1 class="fw-bold text-white">تواصل معنا</h1>
+                  <p class="text-white fs-5">يمكننا الرد على جميع اهتماماتك وتوفير كل وسائل الترفية</p>
+                 </div>
+                 <div class="d-flex text-light mt-5">
+                  <div class="fs-3 ms-3">
+                    <i class="fa-solid fa-house-chimney"></i>
+                  </div>
+                  <div>
+                    <h4 class="text-white">العنوان</h4>
+                    <p class="text-end text-white fs-5">دبى</p>
+                  </div>
+                 </div>
+                 <div class="d-flex text-light mt-5">
+                  <div class="fs-3 ms-3">
+                    <i class="fa-regular fa-envelope-open"></i>
+                  </div>
+                  <div>
+                    <h4 class="text-white">البريد الالكترونى</h4>
+                    <a href="mailto: info@yourmail.com" class="text-decoration-none text-white">
+                      info@yourmail.com
+                  </a>
+                  </div>
+                 </div>
+                 <div class="d-flex text-light mt-5">
+                  <div class="fs-3 ms-3">
+                    <i class="fa-solid fa-phone-volume"></i>
+                  </div>
+                  <div class="mb-3">
+                    <h4 class="text-end text-white">الجوال</h4>
+                    <a href="tel: 457 789 789 65" class="text-decoration-none text-white">
+                      + 457 789 789 65
+                  </a>
+                  </div>
+                 </div>
+                </div>
+                <div class="col-lg-7 col-12">
+                  <form class="row form-contact">
+                    <div class="col-md-6 col-sm-12 mb-4">
+                      <input type="text" class="w-100 edit-input" placeholder="الاسم" required>
                     </div>
+                    <div class="col-md-6 col-sm-12 mb-4">
+                      <input type="email" class="w-100 edit-input" placeholder="البريد الالكترونى" required>
+                    </div>
+                    <div class="col-md-6 col-sm-12 mb-4">
+                        <input type="number" class="w-100 edit-input" placeholder="رقم الجوال" required>
+                      </div>
+                      <div class="col-md-6 col-sm-12 mb-4">
+                        <input type="email" class="w-100 edit-input" placeholder=" ميزانية الاستثمار" required>
+                      </div>
+                    <div class="col-12">
+                      <textarea class="w-100 edit-input" placeholder="الرسالة" required></textarea>
+                    </div>
+                    <div class="col-12 mt-5 d-flex justify-content-center">
+                        <button type="submit" class="btn">
+                          <a class="btn-start">
+                            <span>تواصل معنا</span>
+                        </a>
+                        </button>
+                    </div>
+                  </form>
                 </div>
             </div>
         </div>
@@ -1054,15 +1264,23 @@
                             نتشرف بمتابعتنا على جميع منصات التواصل الاجتماعي للتعرف أكثر على أسرار وطرق الاستثمار في
                             العقارات.
                         </li>
-                        <div class="mt-4">
-                            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-                                <img src="frontend/insta.png" class="img-fluid" style="background-color: #213535;padding: 11px;border-radius: 51px;width: 43px;">
-                            </a>
-                            <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer">
-                                <img src="frontend/2.svg" class="img-fluid" style="background-color: #213535;padding: 11px;border-radius: 51px;width: 43px;">
-                            </a>
-                        </div>
                     </ul>
+                    <div class="social-link">
+                        <ul class="list-unstyled d-flex">
+                         <li>
+                           <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                         </li>
+                         <li>
+                           <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                         </li>
+                         <li>
+                           <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                         </li>
+                         <li>
+                           <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                         </li>
+                        </ul>
+                       </div>
                 </div>
 
             </div>
@@ -1076,6 +1294,25 @@
     <img src="frontend/bg-down.png" class="img-fluid w-lg-35">
 </section>         -->
         <!--footer end-->
+
+
+        <!-- modal video -->
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <button type="button" class="btn-close m-2" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-body">
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/lvYM9tHRz0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/all.min.js"></script>
 
 
     <script src="frontend/assets/libs/jquery/dist/jquery.min.js"></script>
