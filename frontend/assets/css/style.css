@@ -25,7 +25,7 @@
      margin: 0;
      padding: 0;
      width: 100%;
-     background-color: #efd3a8;
+     background-color: #3da5a9;
      padding: 31px 79px;
 }
  .desktop-menu li {
@@ -33,7 +33,7 @@
      padding: 12px 0px;
 }
  .desktop-menu li a {
-     color: #333;
+     color: white;
      text-decoration: none;
      font-weight: bold;
      font-size: 19px;
@@ -292,10 +292,11 @@ border-radius: 6px;
      font-size: 17px;
 }
  .footer .list-unstyled li{
+    margin: 10px;
      padding: 0.125rem 0;
 }
  .heading-1-b {
-     color: #F5DAAF !important
+     color: #3da5a9 !important
 }
 /* .hello-2 {
      background-color: #574435;
@@ -359,7 +360,7 @@ border-radius: 6px;
 }
 	.my-button{
 background: rgb(239,211,168);
-background: linear-gradient(90deg, rgba(239,211,168,1) 20%, rgba(146,110,65,1) 100%);
+background: linear-gradient(90deg, rgba(180, 226, 228,1) 20%, rgba(61, 165, 169,1) 100%);
 border-radius: 100px;
 font-size: 31px;
 color: #153232!important;
@@ -400,7 +401,7 @@ padding: 2px;
 }
  .heading-1 {
      font-family: 'Almarai', sans-serif;
-     color: #574435;
+     color: white;
      font-size: 30px;
      font-weight: 900;
 }
